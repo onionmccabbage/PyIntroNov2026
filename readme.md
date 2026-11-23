@@ -14,34 +14,34 @@ all my code wil be here:
 - https://github.com/onionmccabbage/PyIntroNov2026
 
 ### Monday
-- Welcome and intros
+> Welcome and intros
 - where to write code: module (just a file) or immediate python
 - architecture, structure, and professional code best practice
-- print() and input()
-- maths operators and data types
+> print() and input()
+> maths operators and data types
 - indentation
-- immutable strings
-- lists and tuples (and memory efficiency)
+> immutable strings
+> lists and tuples (and memory efficiency)
 - identifiers
   - use letters, numbers and underscore, don't start with a digit
   - by convention we use snake_case, or camelCase, or PascalCase
-- the 'in' operator
-- boolean True and False
-- type and type conversion
-- the if statement for conditional logic
-- for, while, break and pass
-- print formatting
+> the 'in' operator
+> boolean True and False
+> type and type conversion
+> the if statement for conditional logic
+> for, while, break, continue and pass
+> print formatting
 - validate input (remember - all input is string)
-- after lunch review exercise
-- dictionaries (indexed iterable collections)
-- also the set collection
-- Why would we use any collection rather than another
+> after lunch review exercise
+> dictionaries (indexed iterable collections)
+> also the set collection
+> Why would we use any collection rather than another
 - use cases
 - q: how can we re-use a generator once it is exhausted
 - import, libraries and modules
   to see what libraries are already installed: pip list
 - functions
-- packages (sinply a folder containing python files)
+- packages (simply a folder containing python files)
 
 ### Tuesday
 - how to access course recordings
