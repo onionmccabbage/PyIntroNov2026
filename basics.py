@@ -20,10 +20,10 @@ print( s[16:20] )
 
 # working with strings: .upper() .lower() .title() .capitalize()
 S = s.capitalize() # NB Python is case-sensitive
-print(S)
+print(S) # the brackets at the end tell us this is a function
 
 # other ordinal collections: list and tuple
-l = list(  (1,2,3,4,5)  )
+l = list( (4,3,2,1) ) # here we invoke the list class using ()
 k = [5,4,3,2,1] # lists are mutable
 k[4] = 99
 # append will place the new member at the end of the collection (with a new index )
@@ -53,5 +53,12 @@ print(col) # contain nothing!!!
 
 # tuple: immutable ordinal collection of any data type
 f = tuple( (4,3,8,2,9) )
-g = (4,2,9,-4,31,45)
+g = (4,2,'test',9, [4,3,2], -4,31,(0,0,0),45, True)
 # as with all ordinal collections we may index it
+print(g, type(g), type(f))
+# as with any ordinal collection we may use slicing
+print( g[3], g[2:5] )
+# remember: tuples are immutable
+# why use a tuple or a list
+# we can know the memory ID like this:
+print( id(g), id(col) )
