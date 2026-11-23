@@ -37,7 +37,21 @@ k.remove(True) # the value 'True' evaluates to 1
 # the value False evaluates to 0
 k.remove(2) # finds the first occurence of the actual value to be removed
 print(k)
+# here is another list
+d = [True, None, 'wow', [4,3,2,1]]
+k.extend(d) # add each member of another collection to the list
+print(k)
+
+# what does pop do?
+col = ['test A', 'test B', 'test C', 'test D']
+for c in range(4):
+    f = col.pop() # return the uppermost member of the collection
+    print(f)
+# what is left on our list?
+print(col) # contain nothing!!!
+
 
 # tuple: immutable ordinal collection of any data type
 f = tuple( (4,3,8,2,9) )
 g = (4,2,9,-4,31,45)
+# as with all ordinal collections we may index it
