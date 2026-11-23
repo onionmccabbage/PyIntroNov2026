@@ -1,4 +1,4 @@
-## Review 1 
+## Review 1 40 minutes until 2:35
 
 Ask the user to enter a guess, until they guess correctly 
 (Guess an integer between 0 and 100)
@@ -6,6 +6,7 @@ Ask the user to enter a guess, until they guess correctly
 If it's too high or too low tell them
 When they get it right the game ends
 (Remember to validate that an integer was entered) 
+e.g. int(float(input('guess: ')))
 
 You may choose to write several separate functions, or else write it all in one go
 
