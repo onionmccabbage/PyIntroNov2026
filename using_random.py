@@ -1,0 +1,5 @@
+import random
+
+r  =random.randint(0,100)
+
+print(r)

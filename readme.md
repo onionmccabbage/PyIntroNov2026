@@ -37,6 +37,7 @@ all my code wil be here:
 - also the set collection
 - Why would we use any collection rather than another
 - use cases
+- q: how can we re-use a generator once it is exhausted
 - import, libraries and modules
   to see what libraries are already installed: pip list
 - functions
