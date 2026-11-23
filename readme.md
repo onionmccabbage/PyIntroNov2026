@@ -34,6 +34,9 @@ all my code wil be here:
 - validate input (remember - all input is string)
 - after lunch review exercise
 - dictionaries (indexed iterable collections)
+- also the set collection
+- Why would we use any collection rather than another
+- use cases
 - import, libraries and modules
   to see what libraries are already installed: pip list
 - functions
