@@ -13,9 +13,12 @@ def validate(n=1): # we may provide a default for the arguments
 def getTodo(t):
     '''retrieve the todo with id 't' from REST API'''
     clean = validate(t) # this value will over-write the default n=1
-    td = requests.get(f'https://jsonplaceholder.typicode.com/todos/{clean}')
-    td_structure = td.json() # here we retrieve just the JSON as Python data structures
-    return td_structure
+    try:
+        td = requests.get(f'https://jsonplaceholder.typicode.com/todos/{clean}')
+        td_structure = td.json() # here we retrieve just the JSON as Python data structures
+        return td_structure
+    except Exception as err:
+        print(f'Something went wrong: {err}')
 
 def main():
     '''run the main stuff'''
