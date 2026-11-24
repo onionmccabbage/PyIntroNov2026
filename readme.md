@@ -67,9 +67,9 @@ all my code wil be here:
 > exception handling (try-except etc.)
 > debug tools   
 > review exercise
-- memory leaks 
-- File input and output
-- the nature of file access objects
+> memory leaks: remember to close assets when no longer needed
+> File input and output
+> the nature of file access objects
 
 ### Wednesday
 - quick review of where we got to
