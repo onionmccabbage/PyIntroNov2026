@@ -50,13 +50,15 @@ all my code wil be here:
   > use registration code FJZVCP
   > find the recordings and download individually
 - resolve: how to re-use a generator when it is exhausted?
-- dunder and '__main__'
-- if __name__ == '__main__'
+- dunder and '__main__'. Anything __nnn__ belongs to Python
+> if __name__ == '__main__'
+  - https://realpython.com/if-name-main-python/
 - range, generators
 - comprehensions
 - to add libraries to python:
-  - python -m ensurepip
-  - python –m pip install requests (or any other library you need)
+  - python3 -m ensurepip
+  - ...or python or py 
+  - python3 –m pip install requests (or any other library you need)
   or 
   - pip3 install requests
 - using requests (to access web API via HTTP)
