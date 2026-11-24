@@ -34,6 +34,10 @@ def main():
         r = int(float( sys.argv[1] )) # try to convert the incoming sting to a number
     else:
         r = 1 # a sensible default
+    # additional system arguments
+    if len(sys.argv)>2: # always check that there is actually a member to be had!!
+        print( sys.argv[2], type(sys.argv[2]) )
+    
     c = getTodo(r) # pass in a value
     print(c, type(c), c.json())
 
