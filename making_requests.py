@@ -42,5 +42,8 @@ if __name__ == '__main__':
     print( users[3:6] )
 
     # call one photo function
-    p = getOnePhoto(42)
-    print(p, type(p))
+    try:
+        p = getOnePhoto('42')
+        print(p, type(p))
+    except TypeError as te:
+        print(te)
