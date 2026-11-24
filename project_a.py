@@ -30,7 +30,8 @@ def main():
     '''run the main stuff'''
     # first we check to see if there are additional system argument variables
     if len(sys.argv)>1:
-        r = sys.argv[1]
+        # CAREFUL: sys.argv are ALWAYS string
+        r = int(float( sys.argv[1] )) # try to convert the incoming sting to a number
     else:
         r = 1 # a sensible default
     c = getTodo(r) # pass in a value
