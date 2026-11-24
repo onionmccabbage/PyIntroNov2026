@@ -11,6 +11,7 @@ def fnA():
 def fnC(n=1): # can choose default if we need
     pass
 
+# *args will always look for positional arguemnts and put them into a tuple
 def fnD(*args):
     '''all the arguments provided to this function 
     will be gathered into a tuple called args'''
@@ -18,6 +19,7 @@ def fnD(*args):
     for _ in args:
         print(_)
 
+# **kwargs will always look for keyword args to put into a dict
 def fnE(**kwargs):
     '''any keyword arguments will be gathered into a dict called kwargs'''
     print(kwargs, type(kwargs))
