@@ -19,12 +19,12 @@ all my code wil be here:
 - architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
-- indentation
+> indentation
 > immutable strings
 > lists and tuples (and memory efficiency)
-- identifiers
-  - use letters, numbers and underscore, don't start with a digit
-  - by convention we use snake_case, or camelCase, or PascalCase
+> identifiers
+  > use letters, numbers and underscore, don't start with a digit
+  > by convention we use snake_case, or camelCase, or PascalCase
 > the 'in' operator
 > boolean True and False
 > type and type conversion
@@ -38,10 +38,10 @@ all my code wil be here:
 > Why would we use any collection rather than another
 - use cases
 - q: how can we re-use a generator once it is exhausted
-- import, libraries and modules
+> import, libraries and modules
   to see what libraries are already installed: pip list
-- functions
-- packages (simply a folder containing python files)
+> functions
+> packages (simply a folder containing python files)
 
 ### Tuesday
 > how to access course recordings
