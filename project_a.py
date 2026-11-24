@@ -15,15 +15,20 @@ def getTodo(t):
     clean = validate(t) # this value will over-write the default n=1
     try:
         td = requests.get(f'https://jsonplaceholder.typicode.com/todos/{clean}')
-        td_structure = td.json() # here we retrieve just the JSON as Python data structures
-        return td_structure
+        # td_structure = td.json() # here we retrieve just the JSON as Python data structures
+        return td # here we choose to return the entire response object
+    # we may choose to handle different types of exception
+    except ConnectionError as ce:
+        print(f'Problem connecting: {ce}')
     except Exception as err:
         print(f'Something went wrong: {err}')
+    finally:
+        print('the finally block is optional. It will always run, even if thiere is no exception')
 
 def main():
     '''run the main stuff'''
     c = getTodo(4) # pass in a value
-    print(c, type(c))
+    print(c, type(c), c.json())
 
 if __name__ == '__main__':
     main()
