@@ -8,3 +8,9 @@ print(f'Python calls this module {__name__}')
 # we use this feature to check if we running the module
 if __name__ == '__main__':
     print(simple())
+
+# Python has loadds of stuff...
+# __init__
+# __slots__
+# __eq__ and hundreds of others
+# these are known as 'dunder'

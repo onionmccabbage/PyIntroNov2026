@@ -31,7 +31,7 @@ all my code wil be here:
 > the if statement for conditional logic
 > for, while, break, continue and pass
 > print formatting
-- validate input (remember - all input is string)
+> validate input (remember - all input is string)
 > after lunch review exercise
 > dictionaries (indexed iterable collections)
 > also the set collection
@@ -44,7 +44,13 @@ all my code wil be here:
 - packages (simply a folder containing python files)
 
 ### Tuesday
-- how to access course recordings
+> how to access course recordings
+  > https://learn.neueda.com/register/375369
+  > sign up
+  > use registration code FJZVCP
+  > find the recordings and download individually
+- resolve: how to re-use a generator when it is exhausted?
+- dunder and '__main__'
 - if __name__ == '__main__'
 - range, generators
 - comprehensions
@@ -88,6 +94,7 @@ all my code wil be here:
 
 - where to go from here:
   https://learnpython.org/
+  https://realpython.com
   https://pynative.com/python-exercises-with-solutions/
   https://python.land
 

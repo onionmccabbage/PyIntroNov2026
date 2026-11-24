@@ -21,5 +21,6 @@ if __name__ == '__main__':
     n = cleanUpStringToNumber(d) # we pass the string into our function
     print(d, n, type(d), type(n))
     # what if we have a non-number....
-    e = 'junk'
+    # e = 'junk'
+    # broken = cleanUpStringToNumber(e) # oh dear....
     

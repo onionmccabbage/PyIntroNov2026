@@ -13,8 +13,8 @@ from extra.util import cleanUpStringToNumber
 
 # anything we import is then available within this module
 
-# if __name__ == '__main__':
-x = '44.2'
-print( cleanUpStringToNumber( x ) )
-# if we run this module directly, then python will name it '__main__'
-print( __name__ ) # what does Python call this module
+if __name__ == '__main__':
+    x = '44.2'
+    print( cleanUpStringToNumber( x ) )
+    # if we run this module directly, then python will name it '__main__'
+    print( __name__ ) # what does Python call this module
