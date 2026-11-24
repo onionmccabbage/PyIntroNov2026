@@ -47,3 +47,8 @@ if __name__ == '__main__':
         print(p, type(p))
     except TypeError as te:
         print(te)
+
+    # sometimes we have a large data collection and we need to handle
+    # each member individually
+    (u1, u2, u3) = users[0:3]# here we unpack the first few members
+    print( u1['name'], u2['name'], u3['name'] )

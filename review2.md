@@ -1,4 +1,4 @@
-## Python Review 2 50 minutes (until 2:05)
+## Python Review 2: 1hr
 
 Ask the user for a category and also for an id
 Use these to make a call to an API and show the results

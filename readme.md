@@ -37,7 +37,7 @@ all my code wil be here:
 > also the set collection
 > Why would we use any collection rather than another
 - use cases
-- q: how can we re-use a generator once it is exhausted
+> q: how can we re-use a generator once it is exhausted
 > import, libraries and modules
   to see what libraries are already installed: pip list
 > functions
@@ -49,7 +49,7 @@ all my code wil be here:
   > sign up
   > use registration code FJZVCP
   > find the recordings and download individually
-- resolve: how to re-use a generator when it is exhausted?
+> resolve: how to re-use a generator when it is exhausted?
 > dunder and '__main__'. Anything __nnn__ belongs to Python
 > if __name__ == '__main__'
   - https://realpython.com/if-name-main-python/
@@ -66,7 +66,7 @@ all my code wil be here:
 > strings with triple quotes
 > exception handling (try-except etc.)
 > debug tools   
-- review exercise
+> review exercise
 - memory leaks 
 - File input and output
 - the nature of file access objects
