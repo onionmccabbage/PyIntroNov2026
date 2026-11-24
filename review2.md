@@ -1,4 +1,4 @@
-## Python Review 2
+## Python Review 2 50 minutes (until 2:05)
 
 Ask the user for a category and also for an id
 Use these to make a call to an API and show the results
@@ -18,20 +18,19 @@ Validate the user input as follows:
 - The category may only be one of 'users', 'posts', 'todos' or 'photos'
 - (maybe use the 'in' operator to see if the value is in a tuple of permitted values)
 
-Also ask the user to enter an id
+Also ask the user to enter an id (remember input is always a string, so cast to an int)
 - The id must be a positive integer in the range 1-8 (or suitable range per category)
+- decide what to do if the category or id ar invalid
+- You could set a sensible default or raise an exception
 
-After you ask the user for category value, build a string something like this: 
+After you ask the user for category nd id values, build a string like this: 
   - url = f'https://jsonplaceholder.typicode.com/{cat}/{id}'
   - Inject the 'category' and 'id' into the curly brackets
 
 Use the 'requests' library to make a 'get' call to this end-point API
 
 Show the user what was returned by showing a nicely formatted string
-
-NB if 'requests' does not work for you, load local JSON files to get the API data
-
-(You might then find the specific ID from within the loaded data)
+- you could loop over the members of the dict
 
 Remember to handle potential exceptions using try...except
 
