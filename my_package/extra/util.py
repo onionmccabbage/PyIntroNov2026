@@ -12,6 +12,10 @@ def cleanUpStringToNumber(s):
 
 # any code which is not indented is run whenever the module is executed
 
+def util():
+    pass
+
+
 if __name__ == '__main__':
     # Any module which we run directly is given the name '__main__'
     # so we only run the following code if this module is being run

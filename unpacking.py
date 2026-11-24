@@ -10,3 +10,8 @@ print( rA, rB, rC, rD, rE, rF )
 # a one member tuple
 a = (3) # not a tuple
 b = (3,) # this is a tuple containing a single value
+
+c = (4/3)+2 # we can use brackets for mathematic precedence operators
+
+# dict
+d = { 'a':2 } # here we create a dictionary where key 'a' refers to value 2

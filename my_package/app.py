@@ -10,6 +10,8 @@
 from extra.util import cleanUpStringToNumber
 # be careful - when you import ALL THE CODE RUNS!!!!
 
+# we can import package.module
+import extra.util
 
 # anything we import is then available within this module
 
