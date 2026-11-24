@@ -60,7 +60,7 @@ all my code wil be here:
   - python3 -m ensurepip
   - ...or python or py 
   - python3 –m pip install requests (or any other library you need)
-  or 
+  or  
   - pip3 install requests
 > using requests (to access web API via HTTP)
 > strings with triple quotes
