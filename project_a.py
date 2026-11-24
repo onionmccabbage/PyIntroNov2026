@@ -1,5 +1,6 @@
 # we will use the requests library to retrieve specofoc 'todos' from a REST API
 import requests
+import sys
 
 #NB we may choose to put our validation logic into a separate module (and import it here)
 def validate(n=1): # we may provide a default for the arguments
@@ -27,7 +28,12 @@ def getTodo(t):
 
 def main():
     '''run the main stuff'''
-    c = getTodo(4) # pass in a value
+    # first we check to see if there are additional system argument variables
+    if len(sys.argv)>1:
+        r = sys.argv[1]
+    else:
+        r = 1 # a sensible default
+    c = getTodo(r) # pass in a value
     print(c, type(c), c.json())
 
 if __name__ == '__main__':
