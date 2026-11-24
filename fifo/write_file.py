@@ -2,7 +2,11 @@
 
 def writeToFile(m):
     '''persist the incoming object 'm' to a text file '''
-    
+    fout = open('logsGoHere/output.txt', 'a') # 't' is the default
+    with fout:
+        fout.write(m)
+        # when we use the 'with' operator, it will automatically close the asset when done
+
 
 if __name__ == '__main__':
     t = 'words to be logged to a file'
