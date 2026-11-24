@@ -17,9 +17,14 @@ def getOnePhoto(n):
     '''retrieve the data relating to a single photo, id passed in as 'n' '''
     api_url_root = 'https://jsonplaceholder.typicode.com'
     category = 'photos'
-    url = f'{api_url_root}/{category}/{n}'
-    photo = requests.get(url)
-    return photo
+    # we should validate that n is a positive integer
+    if type(n)==int and n>0:
+        # we REpresent the STate in the URL
+        url = f'{api_url_root}/{category}/{n}'
+        photo = requests.get(url)
+        return photo.json() # we are only interested in the JSON data
+    else:
+        raise TypeError('n must be a positive integer')
 
 if __name__ == '__main__':
     users = getData()
@@ -35,3 +40,7 @@ if __name__ == '__main__':
 
     # if we need several users....
     print( users[3:6] )
+
+    # call one photo function
+    p = getOnePhoto(42)
+    print(p, type(p))

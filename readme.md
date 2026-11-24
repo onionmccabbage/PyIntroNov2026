@@ -55,14 +55,14 @@ all my code wil be here:
   - https://realpython.com/if-name-main-python/
 - range, generators
 - comprehensions
-- to add libraries to python:
+> to add libraries to python:
 - you might use 'where python'
   - python3 -m ensurepip
   - ...or python or py 
   - python3 –m pip install requests (or any other library you need)
   or 
   - pip3 install requests
-- using requests (to access web API via HTTP)
+> using requests (to access web API via HTTP)
 - strings with triple quotes
 - exception handling (try-except etc.)
 - debug tools   
