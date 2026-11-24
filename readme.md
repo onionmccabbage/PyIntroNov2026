@@ -56,6 +56,7 @@ all my code wil be here:
 - range, generators
 - comprehensions
 - to add libraries to python:
+- you might use 'where python'
   - python3 -m ensurepip
   - ...or python or py 
   - python3 –m pip install requests (or any other library you need)

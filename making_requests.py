@@ -6,11 +6,32 @@ def getData():
     We call this API access, often using REST'''
     api_url = 'https://jsonplaceholder.typicode.com/users'
     # use the reursts library to get some external data
+    # we may also use get post put update delete
+    # in addition we can access the request, the headers etc.
     r = requests.get(api_url)
     # we just want the JSON 
     data = r.json() # this also converts the JSON text into Python structures
     return data
 
+def getOnePhoto(n):
+    '''retrieve the data relating to a single photo, id passed in as 'n' '''
+    api_url_root = 'https://jsonplaceholder.typicode.com'
+    category = 'photos'
+    url = f'{api_url_root}/{category}/{n}'
+    photo = requests.get(url)
+    return photo
+
 if __name__ == '__main__':
     users = getData()
     print(users, type(users))
+    # we now have a list of dict objects
+    for i in users:
+        print( i, type(i))
+
+    # grab just one piece from the data structure
+    print( users[0]['name'] ) # we use indexing (or slicing) to parse our data
+
+    print( users[4]['address']['city'], users[4]['name'] )
+
+    # if we need several users....
+    print( users[3:6] )
