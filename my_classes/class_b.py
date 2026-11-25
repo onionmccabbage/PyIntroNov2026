@@ -17,6 +17,28 @@ class Person:
             self.__name = new_n
         else:
             raise TypeError(f'{new_n} is not valid (must be a non empty string)')
+    # get/set methods for age (a positive integer)
+    @property
+    def age(self):
+        return self.__age
+    @age.setter
+    def age(self, new_a):
+        if type(new_a)==int and new_a >0:
+            self.__age = new_a
+        else:
+            self.__age = 42 # here we simply set a sensible default
+    # and again for auth (permit 'admin' 'exec' and 'user')
+    @property
+    def auth(self):
+        return self.__auth
+    @auth.setter
+    def auth(self, new_auth):
+        if new_auth in ('admin', 'exec', 'user'):
+            self.__auth = new_auth
+        else:
+            self.__auth = 'user' # we could raise an exception
+
+
 
 if __name__ == '__main__':
     ''' exercise this module '''
