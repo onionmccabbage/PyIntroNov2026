@@ -16,7 +16,7 @@ all my code wil be here:
 ### Monday
 > Welcome and intros
 - where to write code: module (just a file) or immediate python
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > indentation
@@ -39,7 +39,7 @@ all my code wil be here:
 - use cases
 > q: how can we re-use a generator once it is exhausted
 > import, libraries and modules
-  to see what libraries are already installed: pip list
+> to see what libraries are already installed: pip list
 > functions
 > packages (simply a folder containing python files)
 
@@ -50,18 +50,18 @@ all my code wil be here:
   > use registration code FJZVCP
   > find the recordings and download individually
 > resolve: how to re-use a generator when it is exhausted?
-> dunder and '__main__'. Anything __nnn__ belongs to Python
-> if __name__ == '__main__'
-  - https://realpython.com/if-name-main-python/
+> dunder and `__main__`. Anything `__nnn__` belongs to Python
+> `if __name__ == __main__`
+  > https://realpython.com/if-name-main-python/
 > range, generators
 - comprehensions
 > to add libraries to python:
 > you might use 'where python'
-  - python3 -m ensurepip
-  - ...or python or py 
-  - python3 –m pip install requests (or any other library you need)
-  or  
-  - pip3 install requests
+  > python3 -m ensurepip
+  > ...or python or py 
+  > python3 –m pip install requests (or any other library you need)
+  > or  
+  > pip3 install requests
 > using requests (to access web API via HTTP)
 > strings with triple quotes
 > exception handling (try-except etc.)
@@ -84,8 +84,8 @@ all my code wil be here:
 - Objects and Classes (OOP)
   classes have properties (something belonging to the class) and methods (something the class can do)
 - get/set as property decorators @property
-- name mangling (__) and __slots__
-- properties, methods, __str__
+- name mangling (__) and `__slots__`
+- properties, methods, `__str__`
 - inheritance
 - we have no direct control over memory management in Python
   - we may choose efficient structures - e.g. always use a tuple unless you MUST use a list
