@@ -1,6 +1,7 @@
 # notice the name of the file has no relationship to any class names
 
-class Person:
+# Everything in Python inherits from 'object'
+class Person: # or Person() or Person(object)
     '''Person will have name, age and auth'''
     # we may restrict which proeprties we are permitting
     __slots__ = ['__name', '__age', '__auth']
