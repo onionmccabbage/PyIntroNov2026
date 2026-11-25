@@ -6,9 +6,10 @@ r = range(-97, 97, 7) # start, stop-before, step=1
 
 # here is a generator we must use ()
 g = ( i%3 for i in r ) # here only the generator object exists in memory
+print(g) # we have a generator object
 # we may iterate over the generator
 for _ in g:
-    print(_)
+    print(_) # here we see each value as it is being generated
 
 # list comprehension. We must use []
 # What we do is use a generator to populate a list
