@@ -36,3 +36,13 @@ if __name__ == '__main__':
     longs = list( filter( longWordsOnly, wordList ) )
     print( longs )
 
+    # using zip
+    # NB in Python zip is nothing to do with archives or compression
+    food = ('soup', 'eggs', 'bread', 'carrots')
+    drink = ['water', 'juice', 'tea', 'nice']
+    after = ['coffee', 'brandy', 'other', 'ok ish']
+
+    combined = zip( food, drink, after )
+    print(combined)
+    for _ in combined:
+        print(_)
