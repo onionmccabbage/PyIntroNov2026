@@ -2,6 +2,8 @@
 
 class Person:
     '''Person will have name, age and auth'''
+    # we may restrict which proeprties we are permitting
+    __slots__ = ['__name', '__age', '__auth']
     def __init__(self, n, a, auth): # the __init__ is called once only, when we create an instance
         self.name = n
         self.age  = a
@@ -41,6 +43,9 @@ class Person:
     def birthday(self):
         '''increment the age by one'''
         self.__age += 1
+    # we may choose to control how class instances will be printed
+    def __str__(self):
+        return f'{self.name} is {self.age} and has {self.auth} rights'
 
 if __name__ == '__main__':
     ''' exercise this module '''
@@ -50,8 +55,9 @@ if __name__ == '__main__':
     june  = Person('June', 46, 'user')
     oenid.age = None # we mutate a property - calls the setter (might result in a default)
     oenid.birthday() # this calls the method
-    oenid.birthday() # this calls the method
-    oenid.birthday() # this calls the method
-    oenid.birthday() # this calls the method
     print(oenid.name, oenid.age)
     print( type(oenid) )
+    # __slots__ prevents any additional arbitrary mangled properties
+    # oenid.__oops = 'this will fail'
+    # what happens if we print an instance
+    print( ethel )
