@@ -46,7 +46,7 @@ class Weather():
                 feels = 'warm'
             case t if 22<t<=28:
                 feels = 'hot'
-            case _:
+            case _: # _ will match all remaining values
                 feels = 'baking'
         # alternatively
         # if self.temp <=0:
@@ -71,9 +71,9 @@ class Weather():
 
 if __name__ == '__main__':
     # exercise this module
-    w_gen = Weather('Genoa', 'rainy', 9.04)
-    w_gal = Weather('Galway', 'windy', 6.70)
-    w_kt  = Weather('Kingston', 'sunny', 27.98)
+    w_gen = Weather('Genoa', 'rainy', 9.04564)
+    w_gal = Weather('Galway', 'windy', 6.7045765)
+    w_kt  = Weather('Kingston', 'sunny', 27.983083)
    
     print(w_gen)
     print(w_gal)

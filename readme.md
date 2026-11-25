@@ -91,7 +91,7 @@ all my code wil be here:
   - we may choose efficient structures - e.g. always use a tuple unless you MUST use a list
   - remember to close file access (or use 'with')
   - we can reduce reliance on global objects (write as much code as possible within code blocks such as functions or classes)
-- review exercise
+> review exercise
 - end of course feedback:
   - https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/87b7d171-cfc0-43c5-a74f-73f0e85b0530
 - also
