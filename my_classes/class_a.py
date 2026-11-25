@@ -4,6 +4,7 @@ class Auto:
     # the __init__ is only called ONCE (when we make an instance)
     def __init__(self, name, needs, timeout): # 'self' refers the this class
         self.name = name # this will call the name setter decorated function
+        # not every proeprty hs to have get/set methods 
         self.needs= needs # we assign the incoming parameters to 'self'
         self.timeout = timeout # this calls the decorated setter for timeout
     # we need a reliable mechanism to validate both on creation and mutation
