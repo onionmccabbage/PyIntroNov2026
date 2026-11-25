@@ -37,16 +37,21 @@ class Person:
             self.__auth = new_auth
         else:
             self.__auth = 'user' # we could raise an exception
-
-
+    # we may add further methods for our class
+    def birthday(self):
+        '''increment the age by one'''
+        self.__age += 1
 
 if __name__ == '__main__':
     ''' exercise this module '''
     # we may create as many instancs as we wish
-    oenid = Person('Oenid', 42, 'admin') # the __init__will be called here
+    oenid = Person('Oenid', 44, 'admin') # the __init__will be called here
     ethel = Person('Ethel', 32, 'exec')
     june  = Person('June', 46, 'user')
-    # oenid.age = None # we mutate a property
+    oenid.age = None # we mutate a property - calls the setter (might result in a default)
+    oenid.birthday() # this calls the method
+    oenid.birthday() # this calls the method
+    oenid.birthday() # this calls the method
+    oenid.birthday() # this calls the method
     print(oenid.name, oenid.age)
-
     print( type(oenid) )
