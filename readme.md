@@ -54,7 +54,7 @@ all my code wil be here:
 > `if __name__ == __main__`
   > https://realpython.com/if-name-main-python/
 > range, generators
-- comprehensions
+> comprehensions
 > to add libraries to python:
 > you might use 'where python'
   > python3 -m ensurepip
@@ -78,7 +78,7 @@ all my code wil be here:
 > anything with `__nnn__` is part of python (built in features) called 'dunder'
 > functions live in classes, which live in modules which live in packages
 - custom generator and yield
-- global and local scope 
+> global and local scope 
 > data modelling structures: 
   > use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)
@@ -87,10 +87,10 @@ all my code wil be here:
 > name mangling (__) and `__slots__`
 > properties, methods, `__str__`
 > inheritance
-- we have no direct control over memory management in Python
-  - we may choose efficient structures - e.g. always use a tuple unless you MUST use a list
-  - remember to close file access (or use 'with')
-  - we can reduce reliance on global objects (write as much code as possible within code blocks such as functions or classes)
+> we have no direct control over memory management in Python
+  > we may choose efficient structures - e.g. always use a tuple unless you MUST use a list
+  > remember to close file access (or use 'with')
+  > we can reduce reliance on global objects (write as much code as possible within code blocks such as functions or classes)
 > review exercise
 - end of course feedback:
   - https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/87b7d171-cfc0-43c5-a74f-73f0e85b0530
