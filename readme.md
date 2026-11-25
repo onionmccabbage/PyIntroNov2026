@@ -72,10 +72,10 @@ all my code wil be here:
 > the nature of file access objects
 
 ### Wednesday
-- quick review of where we got to
+> quick review of where we got to
 - in Python EVERTHING is an Object - every function, every class every module....
-- any input or output is necessarily slow: I/O bound
-- anything with __nnn__ is part of python (built in features) called 'dunder'
+> any input or output is necessarily slow: I/O bound
+> anything with `__nnn__` is part of python (built in features) called 'dunder'
 - functions live in classes, which live in modules which live in packages
 - custom generator and yield
 - global and local scope 
@@ -93,7 +93,9 @@ all my code wil be here:
   - we can reduce reliance on global objects (write as much code as possible within code blocks such as functions or classes)
 - review exercise
 - end of course feedback:
-
+  - https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/87b7d171-cfc0-43c5-a74f-73f0e85b0530
+- also
+  - https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LZU1500463&OID=522901&Title=Programming%20in%20Python&Owner=Randhir%20Ram
 
 - where to go from here:
   https://learnpython.org/

@@ -4,7 +4,7 @@ b = 7.3 # floating point number
 
 print(a, b)
 print( type(a), type(b) )
-
+a = 'not an integer'
 # Python has several simple data types
 # int, float, bool
 # 
