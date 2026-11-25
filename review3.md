@@ -1,4 +1,5 @@
 ## Python Review 3
+#### 1 hour (until 2:15)
 
 - Alter these instructions to suit your thinking
 - Aim for good architecture (maybe use separate modules, remember 'if __name__...')
@@ -17,10 +18,10 @@ Your class should validate:
   - 'description' must be a string, but is may be an empty string
   - decide if you will raise a TypeError or set a default for description and temperature 
 
-If you like, in your Weather class override __str__ so the class prints nicely,
+If you like, in your Weather class override `__str__` so the class prints nicely,
 something like 'The weather in Athlone is cloudy at 12 degrees celcius'
 
-Exercise the code by making an instance of your Weather class with suitable values
+Exercise the code by making instances of your Weather class with suitable values
 
 #### If Time
 - Print the values from the weather instance to a text file 
