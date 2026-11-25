@@ -15,7 +15,7 @@ all my code wil be here:
 
 ### Monday
 > Welcome and intros
-- where to write code: module (just a file) or immediate python
+> where to write code: module (just a file) or immediate python
 > architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
@@ -36,7 +36,7 @@ all my code wil be here:
 > dictionaries (indexed iterable collections)
 > also the set collection
 > Why would we use any collection rather than another
-- use cases
+> use cases
 > q: how can we re-use a generator once it is exhausted
 > import, libraries and modules
 > to see what libraries are already installed: pip list
@@ -73,20 +73,20 @@ all my code wil be here:
 
 ### Wednesday
 > quick review of where we got to
-- in Python EVERTHING is an Object - every function, every class every module....
+> in Python EVERTHING is an Object - every function, every class every module....
 > any input or output is necessarily slow: I/O bound
 > anything with `__nnn__` is part of python (built in features) called 'dunder'
-- functions live in classes, which live in modules which live in packages
+> functions live in classes, which live in modules which live in packages
 - custom generator and yield
 - global and local scope 
-- data modelling structures: 
-    use built in structures until they do not suit the purpose (then use classes)
-- Objects and Classes (OOP)
-  classes have properties (something belonging to the class) and methods (something the class can do)
-- get/set as property decorators @property
-- name mangling (__) and `__slots__`
-- properties, methods, `__str__`
-- inheritance
+> data modelling structures: 
+  > use built in structures until they do not suit the purpose (then use classes)
+> Objects and Classes (OOP)
+> classes have properties (something belonging to the class) and methods (something the class can do)
+> get/set as property decorators @property
+> name mangling (__) and `__slots__`
+> properties, methods, `__str__`
+> inheritance
 - we have no direct control over memory management in Python
   - we may choose efficient structures - e.g. always use a tuple unless you MUST use a list
   - remember to close file access (or use 'with')
